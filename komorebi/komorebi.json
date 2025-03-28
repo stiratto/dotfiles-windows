@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.32/schema.json",
+    "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 2,
+  "default_container_padding": 2,
+  "mouse_follows_focus": true,
+  "border": true,
+  "border_width": 2,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#caa2a2",
+    "stack": "#caa2a2",
+    "monocle": "#000000",
+    "unfocused": "#191724"
+  },
+  "stackbar": {
+    "height": 25,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 200,
+      "focused_text": "#caa2a2",
+      "unfocused_text": "#ffffff",
+      "background": "#191724"
+    }
+  },
+  "animation": {
+    "enabled": true,
+    "fps": 60,
+    "duration": 300,
+    "style": "EaseOutQuint"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "web",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "discord",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "game",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "term",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "file",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "code",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "radar",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "music",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "spare",
+          "layout": "VerticalStack"
+        }
+      ]
+    }
+  ]
+}
+
+
