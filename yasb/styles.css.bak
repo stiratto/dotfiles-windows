@@ -1,0 +1,202 @@
+:root {
+    --background: #1d1f21;
+    --foreground: #c5c8c6;
+    --cursor: #c5c8c6;
+    --black: #282a2e;
+    --red: #a54242;
+    --green: #8c9440;
+    --yellow: #de935f;
+    --blue: #5f819d;
+    --magenta: #85678f;
+    --cyan: #5e8d87;
+    --white: #707880;
+    --bright-black: #373b41;
+    --bright-red: #cc6666;
+    --bright-green: #b5bd68;
+    --bright-yellow: #f0c674;
+    --bright-blue: #81a2be;
+    --bright-magenta: #b294bb;
+    --bright-cyan: #8abeb7;
+    --bright-white: #c5c8c6;
+}
+
+/* Global styles for ToolTip */
+QToolTip {
+    padding: 6px;
+    color: var(--foreground);
+    font-size: 12px;
+    background-color: var(--background);
+    border: 0px solid var(--black);
+    border-radius: 6px;
+}
+
+* {
+    font-size: 12px;
+    color: var(--white);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+
+.yasb-bar {
+    background-color: var(--black);
+    border-radius: 8px;
+}
+
+.widget {
+    padding: 0px 12px;
+    margin: 0;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.widget .label {
+    padding: 0px 2px;
+}
+
+.komorebi-active-layout {
+    padding: 4px;
+    margin: 4px 0px;
+    border: 1px solid var(--bright-blue);
+    border-radius: 4px;
+    
+}
+
+.komorebi-workspaces .ws-btn {
+    color: var(--bright-white);
+    background-color: transparent;
+}
+
+.komorebi-workspaces .ws-btn:hover {
+    color: var(--foreground);
+}
+
+.komorebi-workspaces .ws-btn.active {
+    background-color: var(--bright-blue);
+    width: 40px;
+
+}
+
+.volume-widget .icon {
+    color: var(--blue);
+}
+
+.weather-widget .icon {
+    color: var(--yellow);
+}
+
+.media-widget .btn {
+    padding: 4px;
+    color: var(--bright-white);
+}
+
+.media-widget {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.media-widget .btn {
+    color: #989caa;
+    margin: 0;
+    font-family: Segoe Fluent Icons;
+    font-weight: 400;
+}
+
+.media-widget .label.maintext {
+    padding-top: 3px;
+}
+
+.media-widget .btn:hover {
+    color: var(--foreground);
+}
+
+.media-widget .label {
+    
+    background-color: rgba(24, 24, 37, 0.7);
+}
+
+.power-menu-widget .label {
+    color: #f38ba8;
+    font-size: 13px;
+}
+.power-menu-popup {
+    background-color: transparent
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    background-color: var(--crust);
+    color: var(--text);
+    border-left: 4px solid rgba(58, 59, 83, 0);
+    border-right: 4px solid rgba(58, 59, 83, 0);
+    border-top: 4px solid rgba(58, 59, 83, 0);
+    border-bottom: 4px solid rgba(58, 59, 83, 0);
+    margin: 0px;
+}
+.power-menu-popup .button.hover {
+    background-color: var(--base);
+    border-left: 4px solid var(--base);
+    border-right: 4px solid var(--base);
+    border-top: 4px solid var(--base);
+    border-bottom: 4px solid var(--base);
+}
+
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--overlay2)
+}
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: var(--surface2)
+}
+
+.power-menu-popup .button.cancel .icon {
+    padding: 0;
+    margin: 0;
+}
+.power-menu-popup .button.cancel .label {
+    color: var(--red);
+    margin: 0;
+}
+.power-menu-popup .button.cancel {
+    height: 32px;
+    border-radius: 4px;
+}
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--surface2);
+    font-weight: 600;
+}
+
+.home-widget .icon {
+    color: var(--bright-magenta);
+}
+
+.home-widget .icon:hover {
+    color: var(--foreground);
+}
+
+.home-menu {
+    padding: 16px;
+    background-color: var(--background);
+}
+
+.home-menu .menu-item {
+    color: var(--foreground);
+}
+
+.home-menu .menu-item:hover {
+    background-color: var(--bright-black);
+    color: var(--bright-white);
+}
+

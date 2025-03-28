@@ -1,0 +1,190 @@
+/* Rose Pine Dark Theme CSS */
+
+* {
+    font-size: 12px;
+    color: #e0def4;
+    font-weight: 600;
+    font-family: "Segoe UI", "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+
+.yasb-bar {
+    padding: 0 8px;
+    margin: 0;
+    background-color: #191724;
+    border-radius: 8px;
+    border: 1px solid #d0a7a7;
+}
+
+.widget {
+    padding: 0 8px;
+    margin: 2px 4px;
+    background-color: #191724;
+    border-radius: 8px;
+}
+
+.taskbar-widget {}
+
+.taskbar-widget .app-icon {
+    padding: 0px 1px;
+}
+
+.widget .label {
+    padding: 0px 2px 1px 0;
+}
+
+.widget .label.alt {
+    padding: 0px 8px;
+}
+
+.komorebi-workspaces .widget-container {
+    margin-left: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+}
+
+.komorebi-workspaces .offline-status {
+    color: #555169;
+    font-size: 12px;
+    padding: 0 4px;
+    font-weight: 600;
+}
+
+.komorebi-workspaces .ws-btn {
+    border: none;
+    background-color: #26233a;
+    margin: 0 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    color: transparent;
+}
+
+.komorebi-workspaces .ws-btn:hover {
+    background-color: #403d52;
+}
+
+.komorebi-workspaces .ws-btn.populated {
+    background-color: #403d52;
+}
+
+.komorebi-workspaces .ws-btn.active {
+    background-color: #6e6a86;
+    width: 36px;
+    height: 10px;
+}
+
+.apps-widget .label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.apps-widget .label:hover {
+    color: #ffffff;
+    background-color: #302f44;
+}
+
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #e0def4;
+    font-weight: 600;
+}
+
+.power-menu-widget .label {
+    font-size: 13px;
+}
+
+.power-menu-popup {
+    background-color: #191724;
+    border-radius: 12px;
+}
+
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    background-color: #26233a;
+    color: white;
+    margin: 0px;
+}
+
+.power-menu-popup .button:hover {
+    background-color: #403d52;
+}
+
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e0def4;
+}
+
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: #908caa;
+}
+
+.power-menu-popup .button.cancel .icon {
+    color: #eb6f92;
+}
+
+.power-menu-popup .button.cancel .label {
+    color: #eb6f92;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.weather-widget {
+    padding: 0 6px;
+}
+
+.weather-widget .icon {
+    font-size: 16px;
+    margin: 0 2px 0px 0;
+}
+
+.weather-widget .icon.sunnyDay {
+    color: #f6c177;
+}
+
+.weather-widget .icon.clearNight {
+    color: #9ccfd8;
+    font-size: 16px;
+    margin: 0px 2px 1px 0;
+}
+
+.weather-widget .icon.cloudyNight {
+    color: #9ccfd8;
+    font-size: 18px;
+    margin: 0px 2px 1px 0;
+}
+
+.weather-widget .icon.cloudyDay {
+    color: #c4a7e7;
+}
+
+.traffic-widget .tr_sep {
+    margin: 0 6px;
+}
+
+.media-widget .btn {
+    padding: 4px;
+}
+
+.media-widget .widget-container {}
+
+.media-widget .label.maintext {
+    padding-top: 3px;
+}
+
+.media-widget .label.alt {}
+
+.media-widget .btn.disabled {}
+
